@@ -1,0 +1,243 @@
+body{
+
+}
+@font-face {
+font-family: 'Figtree';
+src: url('Font/Figtree.ttf'),
+url('D:\Class of University\3\Javascript\My Project\Font\Figtree-Italic-VariableFont_wght.ttf')
+format('ttf');
+}
+.image-container {
+position: relative;
+height: 960px;
+width: 676px;
+left: 32px;
+top: 32px;
+display: block;
+overflow: hidden;
+}
+.image-container img {
+height: 960px;
+width: 676px;
+left: 32px;
+top: 32px;
+object-fit: cover;
+border-radius: 20px;
+}
+.image-container::after {
+content: "";
+position: absolute;  
+width: 676px;
+height: 960px;
+left: 1px;
+top: 1px;
+border-radius: 20px;
+background: linear-gradient(180deg, rgba(70, 95, 241, 0.37) 0%, #465FF1 100%);
+z-index: 1;
+}
+.titr{
+position: absolute;  
+width: 454px;
+height: 48px;
+font-family:'Figtree';
+font-size: 40px;
+color: white;          
+font-weight: bold;    
+z-index: 2;
+top: 108px;
+left: 112.5px;
+text-align: center;
+}
+p#titr2{
+width: 407px;
+height: 26px;
+font-size: 22px;
+padding-top: 0px;
+font-weight: lighter;
+margin-top: auto;
+padding-left: 20px;
+}
+.foot{
+position: absolute;  
+width: 431px;
+height: 124px;
+font-family:'Figtree';
+font-size: 40px;
+color: white;          
+font-weight: bold;    
+z-index: 2;
+top: 700px;
+left: 124.5px;
+text-align: center;
+}
+p#foot2{
+width: 406px;
+height: 58px;
+font-size: 24px;
+font-weight: lighter;
+font-style: Regular;
+}
+input{
+gap: 6px;
+width: 380px;
+height: 48px;
+gap: 10px;
+border-radius: 8px;
+border-width: 1px;
+margin-bottom: 25px;
+margin-top: 12px;
+padding-left: 16px;
+font-size: 14px;
+outline: none;
+}
+input:hover{
+border: 2px solid #465FF1;
+box-shadow: 0px 4px 8px 0px #465FF11A;
+}
+form{
+width: 358px;
+height: 717px;
+top: 154px;
+left: 800px;
+display:inline-block; 
+justify-content: center;
+position: absolute;
+margin: auto;
+}
+label{
+  margin-bottom: 0px;
+  font-family: 'Figtree';
+}
+.up{
+width: 24;
+height: 24;
+angle: 0 deg;
+opacity: 1;
+border-radius: 4px;
+position: absolute;
+margin-top: 2px;
+}
+h2{
+font-family: 'Figtree';
+font-weight: 700;
+font-size: 24px;
+color: #26203B;
+width: 129px;
+height: 29px;
+position: relative;
+margin-left: 30px;
+}
+.btn{
+width: 385px;
+height: hug;
+border-radius: 8px;
+font-family: 'Figtree';
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+background-color: #ECF0FF;
+padding: 4px;
+margin-bottom: 30px;
+margin-top: 22px;
+}
+.btn1{
+background-color: #465FF1;
+color:white;
+z-index: 1;
+width: 50%;
+height: 35px;
+border-radius: 8px;
+padding-top: 8px;
+padding-right: 20px;
+padding-bottom: 8px;
+padding-left: 20px;
+border-style:hidden;
+margin: auto;
+}
+.btn2{
+color:#9C9AA5;
+border-radius: 0px;
+font-weight: 400;
+text-align: center;
+width: 175px;
+height: 35px;
+border-style:hidden;
+}
+a{
+width: 97px;
+height: 14px;
+font-family: 'Figtree';
+font-weight: 400;
+font-size: 12px;
+text-decoration: underline;
+text-decoration-style: solid;
+color: #9C9AA5;
+text-align: right;
+float: right;
+}
+input#Password{
+  margin-bottom: 0px;
+}
+ul{
+  padding-inline-start: 20px;
+  margin-bottom: 37px;
+}
+.pack li{
+  margin-bottom: 13px;
+}
+li{
+width: 297px;
+height: 12px;
+font-family: 'Figtree';
+font-weight: 400;
+font-size: 12px;
+vertical-align: middle;
+color: #26203B;
+list-style-type:none;
+margin: 4px;
+}
+.valid{
+color: green;
+}
+.invalid{
+color: red;
+margin-bottom:0px;
+}
+.usererror , .emailerror , .nameerror{
+color: #DC2626;
+font-family: 'Figtree';
+margin-top: 10px;
+margin-bottom: 20px;
+font-size: 14px;
+display: none;
+}
+p#p1{
+width: 259px;
+height: 24px;
+top: 953px;
+left: 950px;
+margin: auto;
+color: #9C9AA5;
+font-family: 'Figtree';
+font-size: 10px;
+text-align: center;
+margin-top: 50px;
+}
+p#p2{
+margin-top: 0px;
+}
+input#Submit{
+  background-color: #465FF1B2;
+  color: white;
+}
+div#success{
+font-family: 'Figtree';
+font-weight: 600;
+font-style: SemiBold;
+font-size: 16px;
+text-align: center;
+vertical-align: middle;
+color: #15803D;
+margin-top: 0px;
+display: none;
+}
