@@ -1,9 +1,8 @@
 @font-face {
-font-family: 'Figtree';
-src: url('Font/Figtree.ttf'),
-url('D:\Class of University\3\Javascript\My Project\Font\Figtree-Italic-VariableFont_wght.ttf')
-format('ttf');
+  font-family: 'Figtree';
+  src: url('../Font/Figtree.ttf') format('truetype');
 }
+
 .image-container {
 position: relative;
 height: 960px;
